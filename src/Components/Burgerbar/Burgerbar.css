@@ -1,0 +1,49 @@
+.planets{
+    color: #FFF;
+text-align: center;
+font-family: 'Spartan',sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; 
+letter-spacing: 1.364px;
+text-transform: uppercase;
+
+}
+.eightPlanet{
+    display: flex;
+    gap: 25px;
+}
+.bar-container {
+    display: flex;
+    flex-direction: column;
+    padding: 44px 32px 0px 24px;
+    gap:20px;
+  }
+  
+  .bar {
+    display: flex;
+   flex-direction: column;
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  
+  }
+  .bar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .lines {
+    margin-top: 20px;
+    width: 327px;
+height: 1px;
+opacity: 0.1;
+background: #FFF;
+border: none;
+  }
+  
+

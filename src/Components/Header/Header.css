@@ -1,0 +1,52 @@
+body{
+    background: #070724;
+    background-image: url("./assets/background-stars.svg")
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px 16px;
+    border-bottom: #FFF;
+    align-items: center;
+}
+.header{
+    font-family: 'Antonio',sans-serif;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.05px;
+    text-transform: uppercase;
+}
+.hamburger{
+    width: 24px;
+    height: 17px;
+    opacity: 0.2487;
+}
+@media(min-width:768px){
+    .head{
+        padding: 0;
+        justify-content: center;
+    }
+    .header{
+        margin-top: 32px;
+    }
+    .hamburger{
+        display: none;
+    }
+    .first{
+        display: none;
+    }
+}
+@media(min-width:1440px){
+    .head{
+        padding: 22px 27px 32px;
+        justify-content: flex-start;
+        position: relative;
+    }
+    .header{
+        margin-top: 0;
+    }
+}
+

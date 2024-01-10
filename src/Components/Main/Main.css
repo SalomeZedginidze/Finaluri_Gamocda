@@ -1,0 +1,463 @@
+.line {
+  width: 100%;
+  height: 1px;
+  opacity: 0.2;
+  background: #fff;
+}
+.mainThree {
+  font-family: "Spartan", sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.929px;
+  opacity: 0.5;
+  height: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid transparent;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 24px;
+  height: 50px;
+}
+.everything {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mercury {
+  width: 111px;
+  height: 111px;
+  margin: 95px 132px 98px;
+}
+.venus{
+  width: 154px;
+height: 154px;
+margin:74px 111px 76px;
+}
+.earth, .neptune{
+  width: 173px;
+height: 173px;
+margin:64px 101px 67px;
+}
+.mars{
+  width: 129px;
+height: 129px;
+margin:87px 124px 88px;
+}
+.jupiter{
+  width: 224px;
+height: 224px;
+margin:39px 76px 41px;
+}
+.saturn{
+  width: 256px;
+  height: 256px;
+margin:24px 61px 24px;
+}
+.uranus{
+  width: 176px;
+height: 176px;
+margin: 63px 100px 65px;
+}
+
+.name {
+  color: #fff;
+  text-align: center;
+  font-size: 26.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.overview {
+  color: #fff;
+  text-align: center;
+  font-family: "Spartan", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  width: 327px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  opacity: 0.6;
+}
+.source {
+  color: #fff;
+  font-family: "Spartan", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  opacity: 0.5;
+  text-align: center;
+}
+.wikipedia {
+  opacity: 0.5;
+  color: #fff;
+  font-family: "Spartan", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  margin-left: 6px;
+}
+.icon {
+  margin-bottom: -4px;
+  margin-left: 4px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 47px;
+  margin-top: 28px;
+}
+.same {
+  width: 327px;
+  height: 48px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 24px;
+}
+
+.common-label {
+  color: #fff;
+  font-family: "Spartan", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.727px;
+  opacity: 0.5;
+}
+.common-value {
+  color: #fff;
+  text-align: right;
+  font-family: "Antonio", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.75px;
+}
+.span {
+  display: none;
+}
+.namesOfPlanets {
+  display: none;
+}
+.forFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mobile {
+  display: none;
+  padding: 20px 24px 20px;
+}
+.thirdImage{
+  position: relative;
+}
+.geologyImg{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 61%;
+    left: 40%;
+}
+
+@media (min-width: 768px) {
+  .main {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    padding: 0;
+    margin-top: 42px;
+  }
+  .whole {
+    position: relative;
+  }
+  .namesOfPlanets {
+    display: block;
+    color: #fff;
+    font-family: "Spartan", sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 0.8;
+  }
+  .eight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 33px;
+    padding: 33px 53px 27px;
+  }
+  .second {
+    width: 100%;
+  }
+
+  .mercury {
+    width: 184px;
+    height: 184px;
+    margin-top: 146px;
+    margin-bottom: 130px;
+  }
+  .venus{
+    width: 253px;
+height: 253px;
+margin-top: 112px;
+    margin-bottom: 95px;
+  }
+  .earth, .neptune{
+    width: 285px;
+height: 285px;
+margin-top: 96px;
+margin-bottom: 79px;
+  }
+  .mars{
+    width: 213px;
+height: 213px;
+margin-top: 132px;
+margin-bottom: 115px;
+  }
+  .jupiter{
+    width: 369px;
+height: 369px;
+margin-top: 54px;
+margin-bottom: 37px;
+  }
+  .saturn{
+    width: 316.554px;
+height: 263.554px;
+margin-top: 96px;
+margin-bottom: 100px;
+  }
+  .uranus{
+    width: 290px;
+height: 290px;
+margin-top: 97px;
+margin-bottom: 77px;
+  }
+  .forInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 69px;
+  }
+  .name {
+    font-size: 48px;
+  }
+  .overview {
+    text-align: start;
+    width: 339px;
+  }
+  .details {
+    display: flex;
+    flex-direction: row;
+    margin-right: 4px;
+  }
+  .same {
+    width: 166px;
+    height: 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 0px 15px;
+  }
+  .each {
+    width: 281px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 17px;
+    margin-top: 16px;
+  }
+  .mainThree {
+    opacity: unset;
+  }
+  .span {
+    display: block;
+    color: #fff;
+    font-family: "Spartan", sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 1.929px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-left: 20px;
+  }
+  .easy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .thirdImage{
+    position: relative;
+  }
+  .geologyImg{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 65%;
+    left: 37%;
+  }
+  .link{
+    text-decoration: none;
+  }
+}
+@media (min-width: 1440px) {
+  .eight {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 33px;
+    position: absolute;
+    top: -9.4%;
+    left: 50%;
+    padding: 0;
+    height: 86px;
+    margin-left: 50px;
+  }
+  .namesOfPlanets{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-top: 4px solid transparent;
+  }
+  .mercury {
+    width: 350px;
+    height: 336px;
+    margin-left: 140px;
+  }
+  .venus{
+    width: 400px;
+height: 400px;
+  }
+  .earth, .neptune{
+    width: 450px;
+height: 450px;
+  }
+  .mars{
+    width: 392px;
+height: 380px;
+  }
+  .jupiter{
+    width: 500px;
+height: 512px;
+  }
+  .saturn{
+    width: 530px;
+height: 500px;
+  }
+  .uranus{
+    width: 458px;
+height: 458px;
+  }
+  .same {
+    width: 260px;
+    height: 135px;
+    padding: 0px 23px;
+  }
+  .details {
+    gap: 30px;
+    margin-left: 30px;
+  }
+  .each {
+    width: 350px;
+    height: 48px;
+  }
+  .main {
+    padding: 20px 70px 50px;
+  }
+  .mainThree {
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 2.571px;
+  }
+  .span {
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 2.571px;
+    margin-left: 28px;
+  }
+  .common-label {
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 1px;
+  }
+  .common-value {
+    font-size: 39px;
+    letter-spacing: -1.5px;
+  }
+  .name {
+    font-size: 60px;
+  }
+  .overview {
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 23px;
+    margin-bottom: 24px;
+  }
+  .source {
+    font-size: 14px;
+  }
+  .forInfo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    margin-left: 156px;
+  }
+  .easy {
+    margin-top: 126px;
+  }
+  .forFlex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position:relative
+  }
+  .geologyImg{
+    width: 158px;
+    height: 165px;
+    position: absolute;
+    top: 65%;
+    left: 37.2%;
+  }
+  .mobile {
+    margin-top: -39px;
+    margin-bottom: 87px;
+  }
+  .link{
+    text-decoration: none;
+  }
+  .thirdImage{
+    position: relative;
+  }
+}
+.namesOfPlanets:hover{
+  cursor: pointer;
+}
+.each:hover{
+  cursor: pointer;
+  background: #d8d8d83b;
+}
+
